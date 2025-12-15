@@ -53,7 +53,6 @@ java -cp "out;lib/mysql-connector-j.jar" com.pokepedia.Main
 
 ### Notas y buenas prácticas
 - Las contraseñas del script están en texto plano; para producción usa hashing (BCrypt/Argon2) y validación segura.
-- Look&Feel Nimbus se aplica si está disponible; si tu sistema lo cambia, revisa el tema de Swing.
 - Asegúrate de que el driver MySQL esté accesible en `lib/` o ajusta el classpath.
 
 ### Pruebas rápidas manuales
